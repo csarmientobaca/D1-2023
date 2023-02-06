@@ -12,8 +12,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ImageComponent src="https://cdn.thisiswhyimbroke.com/thumb/hats-for-cats_400x333.jpg" />
-    <Button className="btn btn-primary col-5" name="click" />
-    <Button className="btn btn-danger col-5" name="me" />
+    <Button className="btn btn-primary col-3 m-1" name="click" />
+    <Button className="btn btn-danger col-3 m-1" name="me" />
 
   </React.StrictMode>
 
