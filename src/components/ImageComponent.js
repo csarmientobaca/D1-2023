@@ -1,9 +1,8 @@
-import { React } from "react"
+import React from 'react';
 
 class ImageComponent extends React.Component {
     render() {
-
-        return <h1></h1>
+        return <img src={this.props.src} ></img>
     }
 
 
