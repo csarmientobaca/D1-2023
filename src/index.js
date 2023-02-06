@@ -5,13 +5,14 @@ import reportWebVitals from './reportWebVitals';
 import Button from './components/Button';
 import 'bootstrap/dist/css/bootstrap.css';
 import ImageComponent from './components/ImageComponent';
-
+import Container from './components/Container';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ImageComponent src="https://cdn.thisiswhyimbroke.com/thumb/hats-for-cats_400x333.jpg" />
+    <Container class="container" />
+    <ImageComponent className="rounded float-right m-2" src="https://cdn.thisiswhyimbroke.com/thumb/hats-for-cats_400x333.jpg" />
     <Button className="btn btn-primary col-3 m-1" name="click" />
     <Button className="btn btn-danger col-3 m-1" name="me" />
 

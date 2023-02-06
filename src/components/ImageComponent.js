@@ -2,7 +2,7 @@ import React from 'react';
 
 class ImageComponent extends React.Component {
     render() {
-        return <img src={this.props.src} ></img>
+        return <img className={this.props.className} src={this.props.src} ></img>
     }
 
 
